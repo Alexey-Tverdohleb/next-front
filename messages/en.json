@@ -1,0 +1,229 @@
+{
+  "LocaleLayout": {
+    "title": "OptionFlow"
+  },
+  "Menu": {
+    "connectWallet": "Connect wallet"
+  },
+  "Common": {
+    "swipeTip": "Swipe to see more",
+    "noData": "No date"
+  },
+  "Navigation": {
+    "minting": "Minting",
+    "markets": "Markets",
+    "tradesView": "Trading view",
+    "trades": "My Trades",
+    "options": "My options"
+  },
+  "MintingPage": {
+    "FormSubPage": {
+      "title": "Minting",
+      "optionType": {
+        "label": "Option Type"
+      },
+      "expireDate": {
+        "label": "Expire date",
+        "checkboxLabel": "No expire date"
+      },
+      "strikePrice": {
+        "label": "Strike price",
+        "inputLabel": "ADA"
+      },
+      "amount": {
+        "label": "Amount",
+        "inputLabel": "MILK",
+        "info": "To see amount connect your wallet first"
+      },
+      "createOption": "Create option",
+      "expandBlock": {
+        "moreLabel": "More information",
+        "lessLabel": "Less information",
+        "totalAmount": "Total ADA amount:",
+        "totalFees": "Total fees:"
+      }
+    },
+    "TokenSubPage": {
+      "title": "Select a token",
+      "search": {
+        "placeholder": "Search token by name"
+      },
+      "toggle": {
+        "label": "Only verified"
+      }
+    },
+    "Aside": {
+      "price": "Price",
+      "volume": "Volume",
+      "alreadyIssued": "Already issued:",
+      "estimationPrice": "Estimated price:"
+    }
+  },
+  "MarketsPage": {
+    "title": "Markets Page",
+    "infoBlockHeader": {
+      "topVolume": "Top Volume",
+      "topGainers": "Top Gainers",
+      "topDecliners": "Top Decliners"
+    },
+    "marketTable": {
+      "nameHeader": "Name",
+      "priceHeader": "Price (ADA)",
+      "dayHeader": "24h %",
+      "weekHeader": "7d %",
+      "volumeHeader": "Volume 24h (ADA)",
+      "marketHeader": "Market cap (ADA)",
+      "lastHeader": "Last 10 days"
+    },
+    "filters": {
+      "filters": "Filters",
+      "search": "Search token by name",
+      "verifiedToggle": "Only verified",
+      "classification": "Classification:",
+      "selectBases": "Select bases:",
+      "applyButton": "Apply"
+    },
+    "marketsDetails": {
+      "backButton": "Back to Markets",
+      "filters": "Filters",
+      "expireDate": "Expire date:",
+      "applyButton": "Apply",
+      "strikePrice": "Strike price:",
+      "volume": "Volume:"
+    }
+  },
+  "MyTradesPage": {
+    "title": "My Trades",
+    "search": "Search token by name",
+    "dateFilter": "Date:",
+    "statusFilter": "Status:",
+    "tables": {
+      "pairHeader": "Pair",
+      "limitPriceHeader": "Limit price (ADA)",
+      "inputHeader": "Input (ADA)",
+      "outputHeader": "Output (MILK)",
+      "statusHeader": "Status",
+      "actionHeader": "Action"
+    },
+    "pendingTable": {
+      "title": "Pending",
+      "newLimitButton": "Set new limit"
+    },
+    "confirmModal": {
+      "heading": "Are you sure?",
+      "text1": "You wanted to cancel this option.",
+      "text2": "This action cannot be undone",
+      "no": "No",
+      "yes": "Yes, cancel"
+    }
+  },
+  "TradingViewPage": {
+    "title": "Trading View Page"
+  },
+  "MyOptionsPage": {
+    "title": "Options Page",
+    "tabToggle": {
+      "openOptions": "Open options",
+      "optionsHistory": "Options history"
+    },
+    "openOptionsTab": {
+      "myOptions": {
+        "title": "My Options",
+        "typeHeader": "Type",
+        "tokenHeader": "Token",
+        "strikePriceHeader": "Strike price (ADA)",
+        "amountHeader": "Amount",
+        "issueDateHeader": "Issue date",
+        "expiredDateHeader": "Expire date",
+        "actionsHeader": "Action"
+      },
+      "issuedOptions": {
+        "title": "My issued Options",
+        "typeHeader": "Type",
+        "tokenHeader": "Token",
+        "strikePriceHeader": "Strike price (ADA)",
+        "amountHeader": "Amount",
+        "issueDateHeader": "Issue date",
+        "expiredDateHeader": "Expire date",
+        "statusHeader": "Status",
+        "confirmModal": {
+          "heading": "Are you sure?",
+          "text1": "You wanted to cancel this option.",
+          "text2": "This action cannot be undone",
+          "no": "No",
+          "yes": "Yes, cancel"
+        }
+      }
+    },
+    "optionsHistoryTab": {
+      "searchInput": "Search by token",
+      "typeHeader": "Type",
+      "tokenHeader": "Token",
+      "strikePriceHeader": "Strike price (ADA)",
+      "amountHeader": "Amount",
+      "issueDateHeader": "Issue date",
+      "redeemDateHeader": "Redeem date",
+      "expiredDateHeader": "Expire date",
+      "actionsHeader": "Actions"
+    }
+  },
+  "PrivacyPolicyPage": {
+    "title": "Privacy policy page."
+  },
+  "ServiceTermsPage": {
+    "title": "Terms of service page."
+  },
+  "MarketDetailsTable": {
+    "price": "Price",
+    "strike_price": "Strike price",
+    "expire_date": "Expire date",
+    "min_price": "Min price (24h)",
+    "max_price": "Max price (24h)",
+    "volume": "Volume (24h)",
+    "price_change": "Price change (24h)"
+  },
+  "OrdersManagement": {
+    "ordersToggle": {
+      "limitOrder": "Limit order",
+      "openOrders": "Open orders"
+    },
+    "actionsToggle": {
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "orderContent": {
+      "connectWallet": "Connect your wallet",
+      "buyTitle": "Buy",
+      "sellTitle": "Sell",
+      "priceLabel": "Price",
+      "amountLabel": "Amount",
+      "totalLabel": "Total",
+      "buyButton": "Buy {coin}",
+      "sellButton": "Sell {coin}"
+    }
+  },
+  "OpenOrdersTable": {
+    "pair": "Pair",
+    "date": "Date",
+    "type": "Type",
+    "price": "Price",
+    "amount": "Amount",
+    "filled": "Filled",
+    "action": "Action",
+    "confirmButton": "Confirm",
+    "cancelButton": "Cancel"
+  },
+  "OrdersList": {
+    "price": "Price ({coin})",
+    "amount": "Amount ({coin})",
+    "total": "Total",
+    "moreButton": "More"
+  },
+  "CoinInfo": {
+    "price": "Price",
+    "optionType": "Option type",
+    "expireDate": "Expire date",
+    "strikePrice": "Strike price ({coin})",
+    "volume": "Volume ({coin})"
+  }
+}
